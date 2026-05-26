@@ -53,10 +53,10 @@ if (seedProjects.count === 0) {
     );
     insertProject.run(
       'Weather Dashboard',
-      'A weather app that fetches real-time data from OpenWeatherMap API. Search any city, view 5-day forecasts, toggle temperature units, and see temperature trends with interactive charts.',
-      'React, OpenWeatherMap API, Chart.js, CSS Modules, Netlify',
+      'A real-time weather app with city search, current conditions, and 5-day forecast. Uses free Open-Meteo API — no API key needed. Features geolocation auto-detect and responsive design.',
+      'Next.js, TypeScript, Tailwind CSS, Open-Meteo API, Vercel',
       'https://placehold.co/600x400/06b6d4/fff?text=Weather+Dashboard',
-      'https://weather-app-demo.vercel.app',
+      'https://weather-app-pi-brown-85.vercel.app',
       'https://github.com/litingting080403-blip/weather-app',
       1
     );
