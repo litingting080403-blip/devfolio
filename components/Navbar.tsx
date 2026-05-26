@@ -9,7 +9,7 @@ export function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="text-xl font-bold bg-gradient-to-r from-indigo-500 to-cyan-500 bg-clip-text text-transparent">
-          AC
+          TL
         </a>
 
         <div className="hidden sm:flex items-center gap-8 text-sm font-medium">

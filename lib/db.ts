@@ -43,49 +43,49 @@ if (seedProjects.count === 0) {
 
   const seed = db.transaction(() => {
     insertProject.run(
-      'E-Commerce Dashboard',
-      'A full-stack e-commerce admin dashboard with real-time analytics, order management, and inventory tracking. Features interactive charts, role-based access control, and responsive design.',
-      'Next.js, TypeScript, PostgreSQL, Prisma, Tailwind CSS, Chart.js',
-      'https://placehold.co/600x400/1a1a2e/eee?text=E-Commerce+Dashboard',
-      'https://example.com/demo1',
-      'https://github.com/example/demo1',
+      'DevFolio - Portfolio Site',
+      'A personal developer portfolio built with Next.js and SQLite. Features a responsive landing page, dynamic project showcase, contact form with database storage, and an admin dashboard for content management.',
+      'Next.js, TypeScript, Tailwind CSS, SQLite, Vercel',
+      'https://placehold.co/600x400/6366f1/fff?text=DevFolio',
+      'https://devfolio-silk-two.vercel.app',
+      'https://github.com/litingting080403-blip/devfolio',
       1
     );
     insertProject.run(
-      'TaskFlow App',
-      'A collaborative project management tool with Kanban boards, Gantt charts, and team chat. Real-time updates via WebSockets, file attachments, and third-party integrations with Slack and GitHub.',
-      'React, Node.js, Socket.io, MongoDB, Express, Docker',
-      'https://placehold.co/600x400/16213e/eee?text=TaskFlow+App',
-      'https://example.com/demo2',
-      'https://github.com/example/demo2',
+      'Weather Dashboard',
+      'A weather app that fetches real-time data from OpenWeatherMap API. Search any city, view 5-day forecasts, toggle temperature units, and see temperature trends with interactive charts.',
+      'React, OpenWeatherMap API, Chart.js, CSS Modules, Netlify',
+      'https://placehold.co/600x400/06b6d4/fff?text=Weather+Dashboard',
+      'https://weather-app-demo.vercel.app',
+      'https://github.com/litingting080403-blip/weather-app',
       1
     );
     insertProject.run(
-      'AI Content Generator',
-      'An AI-powered content creation platform that generates blog posts, social media captions, and email newsletters. Built with OpenAI API integration and a custom prompt engineering interface.',
-      'Next.js, Python, FastAPI, PostgreSQL, Redis, OpenAI API',
-      'https://placehold.co/600x400/0f3460/eee?text=AI+Content+Gen',
-      'https://example.com/demo3',
-      'https://github.com/example/demo3',
-      1
-    );
-    insertProject.run(
-      'DevConnect',
-      'A social platform for developers featuring project showcases, code reviews, and mentorship matching. Includes real-time notifications, markdown support, and a reputation system.',
+      'TaskFlow - Task Manager',
+      'A full-stack task management app with user login, task CRUD, drag-and-drop sorting, and category filters. Tasks persist in PostgreSQL with a REST API backend.',
       'Next.js, TypeScript, Prisma, PostgreSQL, NextAuth.js, Tailwind CSS',
-      'https://placehold.co/600x400/533483/eee?text=DevConnect',
-      'https://example.com/demo4',
-      'https://github.com/example/demo4',
+      'https://placehold.co/600x400/8b5cf6/fff?text=TaskFlow',
+      'https://taskflow-demo.vercel.app',
+      'https://github.com/litingting080403-blip/taskflow',
+      1
+    );
+    insertProject.run(
+      'Markdown Blog Platform',
+      'A blog that renders Markdown articles with code syntax highlighting. Features dark mode toggle, SEO-friendly pages, and a simple admin interface for writing and publishing posts.',
+      'Next.js, TypeScript, MDX, Tailwind CSS, Vercel',
+      'https://placehold.co/600x400/ec4899/fff?text=Markdown+Blog',
+      'https://blog-demo.vercel.app',
+      'https://github.com/litingting080403-blip/blog',
       1
     );
 
     const skills = [
       ['React', 'Frontend'], ['Next.js', 'Frontend'], ['TypeScript', 'Frontend'],
-      ['Tailwind CSS', 'Frontend'], ['HTML/CSS', 'Frontend'], ['Redux', 'Frontend'],
-      ['Node.js', 'Backend'], ['Express', 'Backend'], ['Python', 'Backend'],
-      ['FastAPI', 'Backend'], ['PostgreSQL', 'Database'], ['MongoDB', 'Database'],
-      ['Prisma', 'Database'], ['Redis', 'Database'], ['Docker', 'DevOps'],
-      ['AWS', 'DevOps'], ['Git', 'DevOps'], ['CI/CD', 'DevOps'],
+      ['Tailwind CSS', 'Frontend'], ['HTML/CSS', 'Frontend'],
+      ['Node.js', 'Backend'], ['Express', 'Backend'],
+      ['PostgreSQL', 'Database'], ['MongoDB', 'Database'], ['Prisma', 'Database'],
+      ['Git', 'DevOps'], ['Vercel', 'DevOps'], ['Docker', 'DevOps'],
+      ['REST APIs', 'Backend'], ['GraphQL', 'Backend'],
     ];
     for (const [name, category] of skills) {
       insertSkill.run(name, category);

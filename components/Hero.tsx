@@ -19,8 +19,8 @@ export function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl text-zinc-600 dark:text-zinc-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-          I build high-performance web applications with React, Next.js, and Node.js.
-          Clean architecture, responsive design, and great user experience — from concept to deployment.
+          I build responsive full-stack applications with React, Next.js, and Node.js.
+          Passionate about clean code, modern UI, and turning ideas into working products.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -40,16 +40,16 @@ export function Hero() {
 
         <div className="mt-16 flex justify-center gap-8 text-sm text-zinc-500 dark:text-zinc-500">
           <div className="text-center">
-            <div className="text-2xl font-bold text-zinc-900 dark:text-white">4+</div>
-            <div>Years Coding</div>
+            <div className="text-2xl font-bold text-zinc-900 dark:text-white">React</div>
+            <div>Frontend</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-zinc-900 dark:text-white">20+</div>
-            <div>Projects</div>
+            <div className="text-2xl font-bold text-zinc-900 dark:text-white">Node.js</div>
+            <div>Backend</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-zinc-900 dark:text-white">8+</div>
-            <div>Technologies</div>
+            <div className="text-2xl font-bold text-zinc-900 dark:text-white">SQL</div>
+            <div>Database</div>
           </div>
         </div>
       </div>
